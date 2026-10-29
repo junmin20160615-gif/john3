@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "kind": "sprite-gen-inspect-report",
+  "run_dir": "C:\\Users\\ND1\\Documents\\john-2\\hero",
+  "states": [
+    "idle",
+    "walk"
+  ],
+  "thresholds": {
+    "histogram_min": 0.0,
+    "dhash_min": 0.55,
+    "motion_min": 0.01
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "source": "frames",
+      "expected_frames": 4,
+      "found_frames": 4,
+      "natural_pose_count": 4,
+      "frame_files": [
+        "frames/idle/frame-0.png",
+        "frames/idle/frame-1.png",
+        "frames/idle/frame-2.png",
+        "frames/idle/frame-3.png"
+      ],
+      "metrics": {
+        "histogram_intersection": {
+          "min": 0.8550829099556805,
+          "mean": 0.9066420166240471
+        },
+        "dhash_similarity": {
+          "min": 0.765625,
+          "mean": 0.8489583333333334
+        },
+        "motion_presence": 0.11730685763888889,
+        "centroid_sigma": {
+          "x": 4.381448361894507,
+          "y": 2.26825647690706
+        }
+      },
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "state": "walk",
+      "source": "frames",
+      "expected_frames": 4,
+      "found_frames": 4,
+      "natural_pose_count": 4,
+      "frame_files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png"
+      ],
+      "metrics": {
+        "histogram_intersection": {
+          "min": 0.8436635246052021,
+          "mean": 0.872144430174704
+        },
+        "dhash_similarity": {
+          "min": 0.796875,
+          "mean": 0.8489583333333334
+        },
+        "motion_presence": 0.08090421389910131,
+        "centroid_sigma": {
+          "x": 6.217289991784717,
+          "y": 12.425106552132917
+        }
+      },
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

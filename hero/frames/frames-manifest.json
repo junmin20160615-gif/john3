@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "engine_revision": "75166b1fe869",
+  "extract_args": {
+    "chroma_adjacent_pixel_threshold": 600
+  },
+  "run_dir": "C:\\Users\\ND1\\Documents\\john-2\\hero",
+  "cell": {
+    "shape": "square",
+    "width": 256,
+    "height": 256,
+    "safe_margin_x": 24,
+    "safe_margin_y": 24,
+    "size": 256,
+    "safe_margin": 24
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "manual"
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 4,
+      "method": "components",
+      "files": [
+        "frames/idle/frame-0.png",
+        "frames/idle/frame-1.png",
+        "frames/idle/frame-2.png",
+        "frames/idle/frame-3.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 19531,
+          "bbox": [
+            34,
+            24,
+            208,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 367
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 19364,
+          "bbox": [
+            30,
+            25,
+            207,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 413
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 20859,
+          "bbox": [
+            24,
+            24,
+            210,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 278
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 18801,
+          "bbox": [
+            30,
+            27,
+            206,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 449
+        }
+      ],
+      "ok": true,
+      "engine_revision": "75166b1fe869"
+    },
+    {
+      "state": "walk",
+      "frames": 4,
+      "method": "components",
+      "files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 9916,
+          "bbox": [
+            62,
+            85,
+            184,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 250
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 10361,
+          "bbox": [
+            51,
+            89,
+            187,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 194
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 10238,
+          "bbox": [
+            24,
+            67,
+            191,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 341
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 8955,
+          "bbox": [
+            54,
+            86,
+            177,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 459
+        }
+      ],
+      "ok": true,
+      "engine_revision": "75166b1fe869"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-gif-run",
+  "run_dir": "C:\\Users\\ND1\\Documents\\john-2\\hero",
+  "exports": [
+    {
+      "state": "idle",
+      "output": "C:\\Users\\ND1\\Documents\\john-2\\hero\\previews\\idle.gif",
+      "frames": 4,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "C:\\Users\\ND1\\Documents\\john-2\\hero\\previews\\idle.gif",
+        "frames": 4,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "walk",
+      "output": "C:\\Users\\ND1\\Documents\\john-2\\hero\\previews\\walk.gif",
+      "frames": 4,
+      "fps": 8.0,
+      "loop": true,
+      "gif_report": {
+        "path": "C:\\Users\\ND1\\Documents\\john-2\\hero\\previews\\walk.gif",
+        "frames": 4,
+        "delay_ticks": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    }
+  ]
+}

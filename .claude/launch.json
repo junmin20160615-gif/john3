@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sprite-gen-curation",
+      "runtimeExecutable": "C:\\Users\\ND1\\Documents\\john-2\\.claude\\skills\\sprite-gen\\.venv\\Scripts\\sprite-gen.exe",
+      "runtimeArgs": ["curation", "--run-dir", "C:\\Users\\ND1\\Documents\\john-2\\hero", "--host", "127.0.0.1", "--port", "8765", "--no-open", "--lang", "ko"],
+      "port": 8765
+    },
+    {
+      "name": "vampsulike-web",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8060", "--bind", "127.0.0.1", "--directory", "C:\\Users\\ND1\\Documents\\john-2\\vampsulike\\web_build"],
+      "port": 8060
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Godot 4+ specific ignores (모든 하위 프로젝트 포함)
+.godot/
+/android/
+
+# 내보내기(Export) 결과물
+web_build/
+build/
+export/
+exports/
+*.pck
+*.wasm
+*.exe
+*.apk
+*.aab
+*.x86_64
+*.dmg
+
+# Python 가상환경과 캐시 (sprite-gen 스킬)
+.venv/
+__pycache__/
+*.pyc
+
+# 임시/잠금 파일
+*.sg-rwlock
+*.tmp
+.DS_Store
+Thumbs.db
